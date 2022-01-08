@@ -1,4 +1,66 @@
-.btn:focus {
+:root{
+    --darkColor: #010400;
+    --oliveColor: #30332e;
+    --snowColor: #fffbfc;
+    --darkBlue: #5bc0de;
+    --lightOrange: #e0ae42;
+    --darkOrange: #da9502;
+}
+
+body{
+    background-color: var(--snowColor);
+}
+
+.bg-snow{
+    background-color: var(--snowColor);
+}
+
+.bg-olive{
+    background-color: var(--oliveColor);
+}
+
+.bg-black{
+    background-color: var(--darkColor);
+}
+
+.bg-default{
+    background-color: var(--darkBlue);
+}
+
+.default-btn{
+    background-color: var(--snowColor);
+    color: black;
+    width: 100%;
+    border: 1px solid var(--darkBlue);
+}
+
+.default-btn:hover{
+    background-color: var(--darkBlue);
+    width: 100%;
+    border: 1px solid var(--darkBlue);
+}
+
+.btn:focus{
     outline: none;
     box-shadow: none;
-  }
+}
+
+.result{
+    height: 90vh;
+}
+
+.resultContainer{
+    display: none;
+}
+
+.Rounded{
+    border-radius: 15px;
+    padding: 20px 30px;
+    background-color: white;
+}
+
+.question{
+    background-color: var(--snowColor);
+    border: 1px solid var(--darkBlue);
+    color: black;
+}
